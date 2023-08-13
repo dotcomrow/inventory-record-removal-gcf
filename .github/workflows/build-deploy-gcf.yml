@@ -26,6 +26,8 @@ jobs:
           name: 'inventory-record-removal'
           runtime: 'python39'
           entry_point: 'main'
-          event_trigger_type: 'google.pubsub.topic.publish'
-          event_trigger_resource: 'projects/${{ secrets.GCP_PROJECT }}/topics/inventory-record-removal'
+        #   event_trigger_type: 'google.pubsub.topic.publish'
+          https_trigger_security_level: 'SECURE_ALWAYS'
+          ingress_settings: 'INTERNAL_ONLY'
+        #   event_trigger_resource: 'projects/${{ secrets.GCP_PROJECT }}/topics/inventory-record-removal'
   
