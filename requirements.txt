@@ -1,0 +1,3 @@
+google-api-python-client
+google-cloud-BigQuery
+google-cloud-logging

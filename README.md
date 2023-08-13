@@ -1,1 +1,1 @@
-# inventory-record-removal-gcf
+# notification-service
