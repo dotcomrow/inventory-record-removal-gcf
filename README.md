@@ -1,0 +1,1 @@
+# inventory-record-removal-gcf
